@@ -1,0 +1,10 @@
+{
+  "description": "An interactive bingo app that lets players explore game screens, manage cards, and enjoy a streamlined, engaging bingo experience.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
