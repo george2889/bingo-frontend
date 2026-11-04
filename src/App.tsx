@@ -64,6 +64,26 @@ function App() {
   const [cameraStream, setCameraStream] = useState<MediaStream | null>(null)
   const [cameraError, setCameraError] = useState("")
   const [photoPreview, setPhotoPreview] = useState("")
+  const [city, setCity] = useState("Brookside, California")
+  const [homeType, setHomeType] = useState("")
+  const [signInId, setSignInId] = useState("maya.green")
+  const [firstName, setFirstName] = useState("Maya")
+  const [username, setUsername] = useState("maya.green")
+  const [email, setEmail] = useState("maya@example.com")
+  const [displayName, setDisplayName] = useState("Maya")
+  const signIn = () => {
+    const id = signInId.trim()
+    const matchesAccount = id.toLowerCase() === username.trim().toLowerCase() || id.toLowerCase() === email.trim().toLowerCase()
+    setDisplayName(matchesAccount && firstName.trim() ? firstName.trim() : id.split("@")[0])
+    if (matchesAccount) setSignInId(username.trim())
+    go("home")
+  }
+  const createAccount = () => {
+    setDisplayName(firstName.trim() || username.trim())
+    setSignInId(username.trim())
+    go("location")
+  }
+  const isBerkeley = city.split(",")[0].trim().toLowerCase() === "berkeley"
   const [hasSeenPhotoGuide, setHasSeenPhotoGuide] = useState(() => {
     try { return window.localStorage.getItem("loop-photo-guide-completed-v2") === "true" } catch { return false }
   })
@@ -158,10 +178,10 @@ function App() {
       <div className="pill">♧ &nbsp; A small act. A better loop.</div>
       <h1>Welcome back to a<br />greener everyday.</h1>
       <p>Sign in for sorting advice that starts with where you live.</p>
-      <label className="field signin-field">Email or username<div className="input-wrap"><input value="maya.green" readOnly /><span aria-hidden="true">♙</span></div></label>
-      <label className="field signin-field">Password<div className="input-wrap"><input value="password123" type="password" readOnly /><span aria-hidden="true">◉</span></div></label>
+      <label className="field signin-field">Email or username<div className="input-wrap"><input value={signInId} onChange={(e) => setSignInId(e.target.value)} /><span aria-hidden="true">♙</span></div></label>
+      <label className="field signin-field">Password<div className="input-wrap"><input defaultValue="password123" type="password" /><span aria-hidden="true">◉</span></div></label>
       <a className="forgot">Forgot password?</a>
-      <Button onClick={() => go("home")}>→ &nbsp; Sign in</Button>
+      <Button onClick={signIn}>→ &nbsp; Sign in</Button>
       <div className="or"><span>or</span></div>
       <Button light>♧ &nbsp; Continue with Apple</Button>
       <p className="center">New to loop? <button className="link" onClick={() => go("create")}>Create an account</button></p>
@@ -173,13 +193,13 @@ function App() {
   if (screen === "create") return shell(<>
     <header className="top create-top"><button className="icon" onClick={back} aria-label="Go back">←</button><strong>CREATE ACCOUNT</strong><span>01 / 03</span></header>
     <section className="content create-content"><h1>Good habits start with<br />you.</h1><p>A few details, then we’ll find your local sorting guide.</p>
-      <label className="field create-field">First name<div className="input-wrap"><input value="Maya" readOnly /></div></label>
-      <label className="field create-field">Username<div className="input-wrap"><input value="maya.green" readOnly /><span>☉</span></div></label>
-      <label className="field create-field">Email address<div className="input-wrap"><input value="maya@example.com" readOnly /></div></label>
-      <label className="field create-field">Password<div className="input-wrap"><input value="password123" type="password" readOnly /><span>◉</span></div></label>
+      <label className="field create-field">First name<div className="input-wrap"><input value={firstName} onChange={(e) => setFirstName(e.target.value)} /></div></label>
+      <label className="field create-field">Username<div className="input-wrap"><input value={username} onChange={(e) => setUsername(e.target.value)} /><span>☉</span></div></label>
+      <label className="field create-field">Email address<div className="input-wrap"><input value={email} onChange={(e) => setEmail(e.target.value)} /></div></label>
+      <label className="field create-field">Password<div className="input-wrap"><input defaultValue="password123" type="password" /><span>◉</span></div></label>
       <p className="password-hint">At least 8 characters, with a number.</p>
       <div className="terms"><span>✓</span><p>I agree to the Terms of use and Privacy policy.</p></div>
-      <Button onClick={() => go("location")}>→ &nbsp; Create account</Button>
+      <Button onClick={createAccount}>→ &nbsp; Create account</Button>
       <p className="create-signin">Already have an account? <button onClick={() => go("signin")}>Sign in</button></p>
     </section>
     <div className="home-indicator" />
@@ -189,7 +209,13 @@ function App() {
     <header className="top step-top"><button className="icon" onClick={back} aria-label="Go back">←</button><strong>YOUR LOCAL GUIDE</strong><span>02 / 03</span></header>
     <section className="content location-content"><div className="pill">♧ &nbsp; Sorting starts locally</div><h1>Where do you call<br />home?</h1><p>The same item can go in different bins in different places. Let’s match your guide.</p>
       <label className="field location-field">Country<div className="input-wrap"><input value="United States" readOnly /><span>⌄</span></div></label>
-      <label className="field location-field">City or community<div className="input-wrap"><input value="Brookside, California" readOnly /><span>⌕</span></div></label>
+      <label className="field location-field">City or community<div className="input-wrap"><input value={city} onChange={(e) => setCity(e.target.value)} /><span>⌕</span></div></label>
+      {isBerkeley && <label className="field location-field">What type of home do you live in?<div className="input-wrap"><select value={homeType} onChange={(e) => setHomeType(e.target.value)}>
+        <option value="" disabled>Select your home type</option>
+        <option value="single-family">Single-family home</option>
+        <option value="duplex">Duplex</option>
+        <option value="up-to-9-units">Building with up to 9 units</option>
+      </select><span>⌄</span></div></label>}
       <div className="community-card"><div><strong>Brookside, CA</strong><span>✓</span></div><p>Sample community · curbside collection<br />Recycling + landfill + organics</p></div>
       <div className="location-privacy"><span>♧</span><p>City-level only. We don’t need your street address or precise location.</p></div>
       <Button onClick={() => go("ready")}>→ &nbsp; Use Brookside guidelines</Button>
@@ -201,8 +227,8 @@ function App() {
   if (screen === "ready") return shell(<>
     <header className="top step-top ready-top"><button className="icon" onClick={back} aria-label="Go back">←</button><strong>YOU’RE ALL SET</strong><span>03 / 03</span></header>
     <section className="content ready-content"><img className="hero ready-hero" src={kitchenPhoto} alt="A person sorting a bottle for recycling at home" /><div className="pill">♧ &nbsp; Brookside, CA · demo guide</div>
-      <h1>Welcome, Maya. Let’s<br />close the loop.</h1><p>Your local guide is ready. Turn “which bin?” into one small, confident decision.</p>
-      <div className="ready-confirm"><span>✓</span><div><strong>Made local for @maya.green</strong><small>Change your community anytime.</small></div></div>
+      <h1>Welcome, {displayName}. Let’s<br />close the loop.</h1><p>Your local guide is ready. Turn “which bin?” into one small, confident decision.</p>
+      <div className="ready-confirm"><span>✓</span><div><strong>Made local for @{username.trim()}</strong><small>Change your community anytime.</small></div></div>
       <Button onClick={() => go("home")}>→ &nbsp; Show me around</Button>
       <p className="ready-disclaimer">You’re exploring sample rules. Always check your local authority before sorting.</p>
     </section>
@@ -210,7 +236,7 @@ function App() {
   </>)
 
   if (screen === "home") return shell(<><header className="top scanner-top"><Logo /><button className="icon account-icon" aria-label="Account">◎</button></header>
-    <section className="content scanner-home"><div className="pill">♧ &nbsp; Brookside, CA · demo guide</div><h1>Hi, Maya.</h1><p>A little clarity for your next small act.</p>
+    <section className="content scanner-home"><div className="pill">♧ &nbsp; Brookside, CA · demo guide</div><h1>Hi, {displayName}.</h1><p>A little clarity for your next small act.</p>
       <button className="scan-card" onClick={enterScanner}><span>⌗</span><div><strong>Not sure which bin?</strong><small>Take a photo. Get a local answer.</small></div><b>▣ &nbsp; Scan an item</b></button>
       <h3>Three small steps</h3><div className="steps scanner-steps"><span><b>1</b><strong>Photograph</strong><small>One item at a time</small></span><span><b>2</b><strong>Check</strong><small>Confirm the item</small></span><span><b>3</b><strong>Sort</strong><small>Follow your guide</small></span></div>
       <div className="photo-heading"><h3>A good photo helps</h3><button onClick={enterScanner}>Photo guide →</button></div>
@@ -291,7 +317,7 @@ function App() {
     <section className="content journey-content"><div className="pill">♻ &nbsp; PET 1 · clear water bottle</div><h1>One bottle. Another<br />beginning.</h1><p>Here’s one possible path after your bottle leaves the green recycling bin.</p>
       <div className="journey-hero"><img src={flakesPhoto} alt="Clean, shredded PET plastic flakes" /><span>From bottle to clean PET flakes</span></div>
       <div className="journey-timeline">
-        <div><b>♻</b><span><strong>Your recycling bin</strong><em>Maya’s home · Brookside</em><small>Empty, cap on, and loose. A small step that helps keep the stream clean.</small></span></div>
+        <div><b>♻</b><span><strong>Your recycling bin</strong><em>{displayName}’s home · Brookside</em><small>Empty, cap on, and loose. A small step that helps keep the stream clean.</small></span></div>
         <div><b>▧</b><span><strong>Sorted into a PET bale</strong><em>Brookside Recovery Hub</em><small>PET bottles are separated from other materials, checked and pressed together.</small></span></div>
         <div><b>♨</b><span><strong>Washed into clean flakes</strong><em>Circular PET Works</em><small>Bottles are shredded and washed. Caps are separated into their own material stream.</small></span></div>
         <div><b>✧</b><span><strong>Ready for another life</strong><em>A new manufacturing loop</em><small>Flakes can become pellets for new packaging or fibres, depending on quality and demand.</small></span></div>
