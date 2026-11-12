@@ -1,0 +1,1936 @@
+{
+  "items": [
+    {
+      "item_class": "plastic bottle",
+      "material": "Plastic",
+      "example": "Plastic water bottle",
+      "image_ref": "plastic_bottle_01.jpg"
+    },
+    {
+      "item_class": "plastic bottle",
+      "material": "Plastic",
+      "example": "Plastic milk jug",
+      "image_ref": ""
+    },
+    {
+      "item_class": "rigid plastic food container",
+      "material": "Plastic containers #1–7",
+      "example": "Plastic food container",
+      "image_ref": ""
+    },
+    {
+      "item_class": "glass jar",
+      "material": "Glass",
+      "example": "Glass jam jar",
+      "image_ref": ""
+    },
+    {
+      "item_class": "glass bottle",
+      "material": "Glass",
+      "example": "Glass beverage bottle",
+      "image_ref": ""
+    },
+    {
+      "item_class": "metal food can",
+      "material": "Metal",
+      "example": "Aluminum can",
+      "image_ref": ""
+    },
+    {
+      "item_class": "metal food can",
+      "material": "Metal",
+      "example": "Tin food can",
+      "image_ref": ""
+    },
+    {
+      "item_class": "paper beverage cup",
+      "material": "Paper / cardboard",
+      "example": "Paper coffee cup",
+      "image_ref": ""
+    },
+    {
+      "item_class": "paper beverage carton",
+      "material": "Paper / cardboard",
+      "example": "Paper milk carton",
+      "image_ref": ""
+    },
+    {
+      "item_class": "paper beverage carton",
+      "material": "Paper / cardboard",
+      "example": "Shelf-stable juice carton",
+      "image_ref": ""
+    },
+    {
+      "item_class": "plastic berry clamshell",
+      "material": "Plastic",
+      "example": "PET berry clamshell",
+      "image_ref": ""
+    },
+    {
+      "item_class": "black plastic food tray",
+      "material": "Plastic",
+      "example": "Black plastic takeout tray",
+      "image_ref": ""
+    },
+    {
+      "item_class": "compostable plastic food container",
+      "material": "Compostable plastic foodware",
+      "example": "Plastic clamshell labeled compostable",
+      "image_ref": ""
+    },
+    {
+      "item_class": "unmarked plastic food container",
+      "material": "Plastic",
+      "example": "Unmarked plastic food tub",
+      "image_ref": ""
+    },
+    {
+      "item_class": "coffee pod",
+      "material": "Plastic containers #1–7",
+      "example": "Coffee pod",
+      "image_ref": ""
+    },
+    {
+      "item_class": "aerosol can",
+      "material": "Metal",
+      "example": "Aerosol can",
+      "image_ref": ""
+    },
+    {
+      "item_class": "empty paint can",
+      "material": "Metal",
+      "example": "Empty metal paint can",
+      "image_ref": ""
+    },
+    {
+      "item_class": "bamboo utensil",
+      "material": "Bamboo",
+      "example": "Bamboo fork, knife or spoon (untreated and uncoated)",
+      "image_ref": ""
+    },
+    {
+      "item_class": "plastic utensil",
+      "material": "Plastic",
+      "example": "Plastic fork",
+      "image_ref": ""
+    },
+    {
+      "item_class": "compostable plastic utensil",
+      "material": "Plastic",
+      "example": "Compostable plastic fork",
+      "image_ref": ""
+    },
+    {
+      "item_class": "plastic straw",
+      "material": "Plastic",
+      "example": "Plastic drinking straw",
+      "image_ref": ""
+    },
+    {
+      "item_class": "uncoated paper plate",
+      "material": "Uncoated food-soiled paper",
+      "example": "Uncoated paper plate",
+      "image_ref": ""
+    },
+    {
+      "item_class": "paper napkin",
+      "material": "Paper / cardboard",
+      "example": "Paper napkin",
+      "image_ref": ""
+    },
+    {
+      "item_class": "ceramic dishware",
+      "material": "Non-container glass/ceramics",
+      "example": "Broken ceramic mug",
+      "image_ref": ""
+    },
+    {
+      "item_class": "fruit scraps",
+      "material": "Food scraps",
+      "example": "Apple core",
+      "image_ref": ""
+    },
+    {
+      "item_class": "meat scraps",
+      "material": "Food scraps",
+      "example": "Meat scraps",
+      "image_ref": ""
+    },
+    {
+      "item_class": "eggshells",
+      "material": "Food scraps",
+      "example": "Egg shells",
+      "image_ref": ""
+    },
+    {
+      "item_class": "bread and pasta scraps",
+      "material": "Food scraps",
+      "example": "Bread and pasta",
+      "image_ref": ""
+    },
+    {
+      "item_class": "greasy uncoated cardboard",
+      "material": "Paper / cardboard",
+      "example": "Greasy uncoated pizza box",
+      "image_ref": ""
+    },
+    {
+      "item_class": "food-soiled aluminum foil",
+      "material": "Metal",
+      "example": "Aluminum foil with food residue",
+      "image_ref": ""
+    },
+    {
+      "item_class": "small cooking oil residue",
+      "material": "Uncoated food-soiled paper",
+      "example": "Small amount of cooking oil left in a pan",
+      "image_ref": ""
+    },
+    {
+      "item_class": "bulk used cooking oil",
+      "material": "Paint, chemicals, hazardous waste",
+      "example": "Cooking oil (large amount)",
+      "image_ref": ""
+    },
+    {
+      "item_class": "plastic shopping bag",
+      "material": "Plastic",
+      "example": "Plastic shopping bag",
+      "image_ref": ""
+    },
+    {
+      "item_class": "polystyrene foam food container",
+      "material": "Expanded Polystyrene Foam (aka Styrofoam)",
+      "example": "Foam takeout box",
+      "image_ref": ""
+    },
+    {
+      "item_class": "polystyrene foam packaging",
+      "material": "Expanded Polystyrene Foam (aka Styrofoam)",
+      "example": "Foam packing peanuts",
+      "image_ref": ""
+    },
+    {
+      "item_class": "plastic bubble wrap",
+      "material": "Plastic",
+      "example": "Bubble wrap",
+      "image_ref": ""
+    },
+    {
+      "item_class": "plastic air pillows",
+      "material": "Plastic",
+      "example": "Plastic air pillows",
+      "image_ref": ""
+    },
+    {
+      "item_class": "flexible snack wrapper",
+      "material": "Snack/chip wrappers",
+      "example": "Chip bag",
+      "image_ref": ""
+    },
+    {
+      "item_class": "flexible snack wrapper",
+      "material": "Snack/chip wrappers",
+      "example": "Candy wrapper",
+      "image_ref": ""
+    },
+    {
+      "item_class": "flexible plastic pouch",
+      "material": "Plastic",
+      "example": "Flexible plastic squeeze pouch (e.g., GoGo squeeZ)",
+      "image_ref": ""
+    },
+    {
+      "item_class": "plastic-coated cardboard",
+      "material": "Plastic",
+      "example": "Pizza box with shiny plastic coating",
+      "image_ref": ""
+    },
+    {
+      "item_class": "corrugated cardboard box",
+      "material": "Paper / cardboard",
+      "example": "Cardboard shipping box",
+      "image_ref": ""
+    },
+    {
+      "item_class": "paperboard box",
+      "material": "Paper / cardboard",
+      "example": "Cereal box",
+      "image_ref": ""
+    },
+    {
+      "item_class": "newspaper",
+      "material": "Paper / cardboard",
+      "example": "Newspaper",
+      "image_ref": ""
+    },
+    {
+      "item_class": "paperback book",
+      "material": "Paper / cardboard",
+      "example": "Paperback book",
+      "image_ref": ""
+    },
+    {
+      "item_class": "paper egg carton",
+      "material": "Paper / cardboard",
+      "example": "Paper egg carton (clean)",
+      "image_ref": ""
+    },
+    {
+      "item_class": "shredded paper",
+      "material": "Paper / cardboard",
+      "example": "Shredded paper",
+      "image_ref": ""
+    },
+    {
+      "item_class": "paper receipt",
+      "material": "Paper / cardboard",
+      "example": "Paper receipt",
+      "image_ref": ""
+    },
+    {
+      "item_class": "hardcover book",
+      "material": "Paper / cardboard",
+      "example": "Hardcover book",
+      "image_ref": ""
+    },
+    {
+      "item_class": "plastic bottle",
+      "material": "Plastic",
+      "example": "Plastic detergent bottle",
+      "image_ref": ""
+    },
+    {
+      "item_class": "plastic bottle",
+      "material": "Plastic",
+      "example": "Plastic shampoo bottle",
+      "image_ref": ""
+    },
+    {
+      "item_class": "plastic prescription bottle",
+      "material": "Plastic",
+      "example": "Plastic prescription bottle",
+      "image_ref": ""
+    },
+    {
+      "item_class": "certified compostable food scrap liner",
+      "material": "BPI-certified compostable bags as food-scrap liners",
+      "example": "BPI-certified food-scrap liner",
+      "image_ref": ""
+    },
+    {
+      "item_class": "disposable diaper",
+      "material": "Hygiene and pet waste",
+      "example": "Disposable diaper",
+      "image_ref": ""
+    },
+    {
+      "item_class": "disposable wipe",
+      "material": "Hygiene and pet waste",
+      "example": "Baby wipe",
+      "image_ref": ""
+    },
+    {
+      "item_class": "unused medication",
+      "material": "Medication and sharps",
+      "example": "Old medication",
+      "image_ref": ""
+    },
+    {
+      "item_class": "medical sharps",
+      "material": "Medication and sharps",
+      "example": "Used medical needle",
+      "image_ref": ""
+    },
+    {
+      "item_class": "plastic dispenser pump",
+      "material": "Plastic",
+      "example": "Plastic pump top (from soap or lotion bottle)",
+      "image_ref": ""
+    },
+    {
+      "item_class": "rigid plastic household item",
+      "material": "Plastic",
+      "example": "Plastic laundry basket",
+      "image_ref": ""
+    },
+    {
+      "item_class": "rigid plastic household item",
+      "material": "Plastic",
+      "example": "Plastic bucket",
+      "image_ref": ""
+    },
+    {
+      "item_class": "rigid plastic household item",
+      "material": "Plastic",
+      "example": "Plastic storage box",
+      "image_ref": ""
+    },
+    {
+      "item_class": "rigid plastic household item",
+      "material": "Plastic",
+      "example": "Small solid plastic toy",
+      "image_ref": ""
+    },
+    {
+      "item_class": "clean aluminum foil",
+      "material": "Metal",
+      "example": "Clean aluminum foil",
+      "image_ref": ""
+    },
+    {
+      "item_class": "metal cookware",
+      "material": "Metal",
+      "example": "Metal pot/pan",
+      "image_ref": ""
+    },
+    {
+      "item_class": "mirror glass",
+      "material": "Glass",
+      "example": "Broken mirror",
+      "image_ref": ""
+    },
+    {
+      "item_class": "plastic clothes hanger",
+      "material": "Plastic",
+      "example": "Plastic clothes hanger",
+      "image_ref": ""
+    },
+    {
+      "item_class": "grass clippings",
+      "material": "Yard trimmings",
+      "example": "Lawn clippings",
+      "image_ref": ""
+    },
+    {
+      "item_class": "yard leaves",
+      "material": "Yard trimmings",
+      "example": "Leaves",
+      "image_ref": ""
+    },
+    {
+      "item_class": "untreated wood pieces",
+      "material": "Untreated wood",
+      "example": "Small pieces of untreated wood",
+      "image_ref": ""
+    },
+    {
+      "item_class": "palm fronds",
+      "material": "Yard trimmings",
+      "example": "Palm fronds",
+      "image_ref": ""
+    },
+    {
+      "item_class": "poison oak",
+      "material": "Yard trimmings",
+      "example": "Poison oak",
+      "image_ref": ""
+    },
+    {
+      "item_class": "large tree stump",
+      "material": "Yard trimmings",
+      "example": "Large tree stump",
+      "image_ref": ""
+    },
+    {
+      "item_class": "household battery",
+      "material": "Household batteries",
+      "example": "Household battery",
+      "image_ref": ""
+    },
+    {
+      "item_class": "mobile phone",
+      "material": "Cell phones",
+      "example": "Cell phone",
+      "image_ref": ""
+    },
+    {
+      "item_class": "fluorescent light bulb",
+      "material": "Compact fluorescent bulbs",
+      "example": "CFL light bulb",
+      "image_ref": ""
+    },
+    {
+      "item_class": "leftover paint",
+      "material": "Paint, chemicals, hazardous waste",
+      "example": "Leftover paint",
+      "image_ref": ""
+    },
+    {
+      "item_class": "laptop computer",
+      "material": "Electronics",
+      "example": "Old laptop",
+      "image_ref": ""
+    },
+    {
+      "item_class": "used motor oil",
+      "material": "Motor oil and filters",
+      "example": "Used motor oil",
+      "image_ref": ""
+    },
+    {
+      "item_class": "pet waste",
+      "material": "Hygiene and pet waste",
+      "example": "Dog waste bag with waste",
+      "image_ref": ""
+    }
+  ],
+  "locations": [
+    {
+      "location_id": "lafayette_ca",
+      "ruleset_id": "recyclesmart_ca",
+      "city_or_county": "Lafayette",
+      "home_type": "",
+      "state": "CA",
+      "facility_name": "Mt. Diablo Resource Recovery",
+      "facility_url": "https://www.recyclesmart.org/houses-general"
+    },
+    {
+      "location_id": "moraga_ca",
+      "ruleset_id": "recyclesmart_ca",
+      "city_or_county": "Moraga",
+      "home_type": "",
+      "state": "CA",
+      "facility_name": "Mt. Diablo Resource Recovery",
+      "facility_url": "https://www.recyclesmart.org/houses-general"
+    },
+    {
+      "location_id": "orinda_ca",
+      "ruleset_id": "recyclesmart_ca",
+      "city_or_county": "Orinda",
+      "home_type": "",
+      "state": "CA",
+      "facility_name": "Mt. Diablo Resource Recovery",
+      "facility_url": "https://www.recyclesmart.org/houses-general"
+    },
+    {
+      "location_id": "walnut_creek_ca",
+      "ruleset_id": "recyclesmart_ca",
+      "city_or_county": "Walnut Creek",
+      "home_type": "",
+      "state": "CA",
+      "facility_name": "Mt. Diablo Resource Recovery",
+      "facility_url": "https://www.recyclesmart.org/houses-general"
+    },
+    {
+      "location_id": "danville_ca",
+      "ruleset_id": "recyclesmart_ca",
+      "city_or_county": "Danville",
+      "home_type": "",
+      "state": "CA",
+      "facility_name": "Mt. Diablo Resource Recovery",
+      "facility_url": "https://www.recyclesmart.org/houses-general"
+    },
+    {
+      "location_id": "berkeley_ca",
+      "ruleset_id": "berkeley_1to9_ca",
+      "city_or_county": "Berkeley (single-family homes, duplexes, and buildings with up to 9 units)",
+      "home_type": "",
+      "state": "CA",
+      "facility_name": "Ecology Center (recycling); City of Berkeley (compost and landfill)",
+      "facility_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide"
+    }
+  ],
+  "rules": [
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "plastic bottle",
+      "bin": "recycling",
+      "prep_instructions": "Empty, clean and dry; keep caps on.",
+      "research_references": "I001; R001; Explicit example; I002; R001; Explicit example; I050; R001; Explicit example; I051; R001; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "rigid plastic food container",
+      "bin": "recycling",
+      "prep_instructions": "Empty, clean and dry; keep caps on.",
+      "research_references": "I003; R001; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "glass jar",
+      "bin": "recycling",
+      "prep_instructions": "Empty, clean, dry; caps/lids attached.",
+      "research_references": "I004; R004; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "glass bottle",
+      "bin": "recycling",
+      "prep_instructions": "Empty, clean, dry; caps/lids attached.",
+      "research_references": "I005; R004; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "metal food can",
+      "bin": "recycling",
+      "prep_instructions": "",
+      "research_references": "I006; R005; Explicit example; I007; R005; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "paper beverage cup",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I008; R015; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "paper beverage carton",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I009; R015; Explicit example; I010; R015; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "plastic berry clamshell",
+      "bin": "needs_verification",
+      "prep_instructions": "Likely recyclable under #1–7 container rule; verify thermoforms explicitly.",
+      "research_references": "I011; R001; Needs verification | Thermoform not separately named in blue cart guide. | Research question: Is it a clean, empty plastic container? | Provisional destination: Recycle (provisional)",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "black plastic food tray",
+      "bin": "needs_verification",
+      "prep_instructions": "Potentially recycle; verify color/sorting exception.",
+      "research_references": "I012; R001; Needs verification | Color/processing acceptance not expressly specified. | Research question: Is it rigid, clean and marked #1–7? | Provisional destination: Recycle (provisional)",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "compostable plastic food container",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I013; R016; Covered by general rule | Important label-driven branch. | Research question: Is it certified compostable plastic or conventional plastic?",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "unmarked plastic food container",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "I014; R001; Needs verification | Research question: Is there a resin number #1–7? | Provisional destination: Undetermined",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": "Unverified prior prep text (research only): If numbered and clean, recycle; otherwise verify."
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "coffee pod",
+      "bin": "needs_verification",
+      "prep_instructions": "Depends on material and local item acceptance.",
+      "research_references": "I015; R001; Needs verification | Not expressly listed. | Research question: What material is the pod and is it empty? | Provisional destination: Undetermined",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "aerosol can",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "I016; R005; Needs verification | Potential hazardous contents. | Research question: Is the can completely empty and what did it contain? | Provisional destination: Undetermined",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "empty paint can",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I017; R005; Explicit in regional guide | Blue cart exclusions.",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "bamboo utensil",
+      "bin": "compost",
+      "prep_instructions": "",
+      "research_references": "I018; R028; Explicit example | Untreated, uncoated bamboo utensils are accepted in organics. Unlike compostable plastic utensils, which go to landfill.",
+      "source_url": "RecycleSmart green cart",
+      "date_checked": "2026-10-26",
+      "notes": "Verify whether natural oil- or wax-treated bamboo utensils are accepted. Distinguish from lacquered or synthetic-coated utensils. Do not create separate item classes until verified."
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "plastic utensil",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I019; R018; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "compostable plastic utensil",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I020; R016; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "plastic straw",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I021; R018; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "uncoated paper plate",
+      "bin": "compost",
+      "prep_instructions": "",
+      "research_references": "I022; R010; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-green-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "paper napkin",
+      "bin": "compost",
+      "prep_instructions": "",
+      "research_references": "I023; R010; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-green-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "ceramic dishware",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I024; R019; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "fruit scraps",
+      "bin": "compost",
+      "prep_instructions": "Remove packaging and produce stickers.",
+      "research_references": "I025; R007; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-green-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "meat scraps",
+      "bin": "compost",
+      "prep_instructions": "Remove packaging.",
+      "research_references": "I026; R007; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-green-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "eggshells",
+      "bin": "compost",
+      "prep_instructions": "Remove packaging.",
+      "research_references": "I027; R007; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-green-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "bread and pasta scraps",
+      "bin": "compost",
+      "prep_instructions": "Remove packaging.",
+      "research_references": "I028; R007; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-green-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "greasy uncoated cardboard",
+      "bin": "compost",
+      "prep_instructions": "",
+      "research_references": "I029; R010; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-green-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "food-soiled aluminum foil",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I030; R020; Explicit example | Research question: Can the food residue be removed?",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "small cooking oil residue",
+      "bin": "compost",
+      "prep_instructions": "Wipe up very small amounts with a paper towel or napkin and place in organics. Take larger amounts to Central San's Household Hazardous Waste facility. Never pour oil down a drain.",
+      "research_references": "I031; R010; Covered by general rule | Quantity matters. RecycleSmart directs larger quantities to the Central San household hazardous waste program. | Research question: Is it only a little residue in the pan, or a larger amount of used oil?",
+      "source_url": "https://www.recyclesmart.org/houses-green-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "bulk used cooking oil",
+      "bin": "special_disposal",
+      "prep_instructions": "Use approved household hazardous waste program; no ordinary cart.",
+      "research_references": "I032; R024; Explicit in regional guide | Green cart directs large amounts to Central San HHW.",
+      "source_url": "https://www.cityoforinda.gov/462/Waste-Services",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "plastic shopping bag",
+      "bin": "recycling",
+      "prep_instructions": "Clean, dry; bundle in ONE clear plastic bag; no loose bags.",
+      "research_references": "I033; R002; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "polystyrene foam food container",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I034; R012; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "polystyrene foam packaging",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I035; R012; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "plastic bubble wrap",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I036; R013; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": "Distinguish from bundled plastic shopping bags; review related film packaging categories."
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "plastic air pillows",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I037; R013; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": "Distinguish from bundled plastic shopping bags; review related film packaging categories."
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "flexible snack wrapper",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I038; R014; Explicit example; I039; R014; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "flexible plastic pouch",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "I040; R001; Needs verification | Soft pouch rather than a rigid bottle; acceptance remains unresolved. See Q003. | Research question: Is it a rigid container or flexible multi-layer pouch? | Provisional destination: Undetermined",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": "Unverified prior prep text (research only): Flexible pouch may be landfill."
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "plastic-coated cardboard",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I041; R015; Covered by general rule | Question changes stream. | Research question: Does the box have a shiny plastic coating?",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": "Existing distinct item classes already cover plastic-coated cardboard, greasy uncoated cardboard, corrugated cardboard boxes, and paperboard boxes. No new class needed."
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "corrugated cardboard box",
+      "bin": "recycling",
+      "prep_instructions": "Clean and dry; flatten.",
+      "research_references": "I042; R006; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "paperboard box",
+      "bin": "recycling",
+      "prep_instructions": "Keep clean and dry; flatten cardboard.",
+      "research_references": "I043; R006; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "newspaper",
+      "bin": "recycling",
+      "prep_instructions": "Keep clean and dry.",
+      "research_references": "I044; R006; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "paperback book",
+      "bin": "recycling",
+      "prep_instructions": "Keep clean and dry.",
+      "research_references": "I045; R006; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "paper egg carton",
+      "bin": "recycling",
+      "prep_instructions": "Keep clean and dry.",
+      "research_references": "I046; R006; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "shredded paper",
+      "bin": "recycling",
+      "prep_instructions": "Place shredded paper in paper or clear bag.",
+      "research_references": "I047; R006; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "paper receipt",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I048; R018; Explicit in regional guide | Listed as landfill on blue cart page.",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "hardcover book",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I049; R018; Explicit in regional guide | Blue cart page explicitly says hardcover books to landfill.",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "plastic prescription bottle",
+      "bin": "recycling",
+      "prep_instructions": "Empty, clean and dry; keep caps on.",
+      "research_references": "I052; R001; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "certified compostable food scrap liner",
+      "bin": "compost",
+      "prep_instructions": "Only for containing food scraps; not a general approval of compostable foodware.",
+      "research_references": "I053; R011; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-green-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "disposable diaper",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I054; R017; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "disposable wipe",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I055; R017; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "unused medication",
+      "bin": "special_disposal",
+      "prep_instructions": "Approved drop-off; municipality-specific site and packaging requirements.",
+      "research_references": "I056; R025; Explicit example",
+      "source_url": "https://www.cityoforinda.gov/462/Waste-Services",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "medical sharps",
+      "bin": "special_disposal",
+      "prep_instructions": "Approved drop-off; municipality-specific site and packaging requirements.",
+      "research_references": "I057; R025; Explicit example",
+      "source_url": "https://www.cityoforinda.gov/462/Waste-Services",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "plastic dispenser pump",
+      "bin": "trash",
+      "prep_instructions": "Remove pump from bottle; recycle empty clean bottle separately.",
+      "research_references": "I058; R018; Explicit exception | Research question: Can the pump be separated from the bottle?",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "rigid plastic household item",
+      "bin": "recycling",
+      "prep_instructions": "RecycleSmart lists buckets, solid plastic storage boxes, laundry baskets and small solid plastic toys; remove excluded components.",
+      "research_references": "I059; R003; Explicit example; I060; R003; Explicit example; I061; R003; Explicit example; I062; R003; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "clean aluminum foil",
+      "bin": "recycling",
+      "prep_instructions": "",
+      "research_references": "I063; R005; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "metal cookware",
+      "bin": "recycling",
+      "prep_instructions": "Remove nonmetal attachments where possible.",
+      "research_references": "I064; R005; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "mirror glass",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I065; R019; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "plastic clothes hanger",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I066; R018; Explicit in regional guide | All hangers excluded.",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "grass clippings",
+      "bin": "compost",
+      "prep_instructions": "Keep poison oak, palm leaves and oleander out of compost.",
+      "research_references": "I067; R008; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-green-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "yard leaves",
+      "bin": "compost",
+      "prep_instructions": "Keep poison oak, palm leaves and oleander out of compost.",
+      "research_references": "I068; R008; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-green-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "untreated wood pieces",
+      "bin": "compost",
+      "prep_instructions": "No paint/stain/coating; 4 ft or less and 6 in diameter or less.",
+      "research_references": "I069; R009; Explicit example | Unpainted, unstained and untreated wood; observe the published size limits.",
+      "source_url": "https://www.recyclesmart.org/houses-green-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "palm fronds",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I070; R008; Explicit in regional guide | RecycleSmart specifically excludes palm leaves/fronds from the green cart; dispose in landfill.",
+      "source_url": "https://www.recyclesmart.org/houses-green-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "poison oak",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I071; R008; Explicit in regional guide | Green cart explicitly directs landfill.",
+      "source_url": "https://www.recyclesmart.org/houses-green-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "large tree stump",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "I072; R008; Needs verification | Not accepted in green cart; investigate service. | Provisional destination: Special / verify",
+      "source_url": "https://www.recyclesmart.org/houses-green-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "household battery",
+      "bin": "special_disposal",
+      "prep_instructions": "Never inside cart; single-family collection: clear bag on blue cart lid.",
+      "research_references": "I073; R021; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "mobile phone",
+      "bin": "special_disposal",
+      "prep_instructions": "Single-family collection: clear bag on blue cart lid.",
+      "research_references": "I074; R022; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "fluorescent light bulb",
+      "bin": "special_disposal",
+      "prep_instructions": "Single-family collection: clear bag beside blue cart.",
+      "research_references": "I075; R023; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-blue-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "leftover paint",
+      "bin": "special_disposal",
+      "prep_instructions": "Use approved household hazardous waste program; no ordinary cart.",
+      "research_references": "I076; R024; Explicit example",
+      "source_url": "https://www.cityoforinda.gov/462/Waste-Services",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "laptop computer",
+      "bin": "special_disposal",
+      "prep_instructions": "E-waste drop-off; never ordinary cart.",
+      "research_references": "I077; R026; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "used motor oil",
+      "bin": "special_disposal",
+      "prep_instructions": "Approved collection; verify local curbside arrangement.",
+      "research_references": "I078; R027; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "recyclesmart_ca",
+      "item_class": "pet waste",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "I079; R017; Explicit example",
+      "source_url": "https://www.recyclesmart.org/houses-black-cart",
+      "date_checked": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "plastic bottle",
+      "bin": "recycling",
+      "prep_instructions": "Empty, clean and dry; keep loose in container recycling; attach caps/lids where applicable.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/wp-content/uploads/2018/06/FACT-SHEET-Plastics-Recycling.pdf",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "rigid plastic food container",
+      "bin": "recycling",
+      "prep_instructions": "Empty, clean and dry; keep loose in container recycling; attach caps/lids where applicable.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/wp-content/uploads/2018/06/FACT-SHEET-Plastics-Recycling.pdf",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "glass jar",
+      "bin": "recycling",
+      "prep_instructions": "Empty, clean and dry; keep loose in container recycling; attach caps/lids where applicable.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/zero-waste/curbside-recycling/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "glass bottle",
+      "bin": "recycling",
+      "prep_instructions": "Empty, clean and dry; keep loose in container recycling; attach caps/lids where applicable.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/zero-waste/curbside-recycling/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "metal food can",
+      "bin": "recycling",
+      "prep_instructions": "Empty, clean and dry; keep loose in container recycling; attach caps/lids where applicable.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/zero-waste/curbside-recycling/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "paper beverage cup",
+      "bin": "trash",
+      "prep_instructions": "Certified compostable fiber cups may qualify for compost; check labeling.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "paper beverage carton",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "plastic berry clamshell",
+      "bin": "recycling",
+      "prep_instructions": "Empty, rinse and dry; keep loose in container recycling.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/wp-content/uploads/2018/06/FACT-SHEET-Plastics-Recycling.pdf",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "black plastic food tray",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "compostable plastic food container",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "unmarked plastic food container",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "coffee pod",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "aerosol can",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "empty paint can",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "bamboo utensil",
+      "bin": "compost",
+      "prep_instructions": "Only untreated wood or bamboo; not compostable plastic.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/community-recreation/news/sort-right-reuse-more-help-berkeley-cut-landfill-waste",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "plastic utensil",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "compostable plastic utensil",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "plastic straw",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "uncoated paper plate",
+      "bin": "compost",
+      "prep_instructions": "Keep plastics out of compost.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "paper napkin",
+      "bin": "compost",
+      "prep_instructions": "Keep plastics out of compost.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "ceramic dishware",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "fruit scraps",
+      "bin": "compost",
+      "prep_instructions": "Keep plastics out of compost.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "meat scraps",
+      "bin": "compost",
+      "prep_instructions": "Keep plastics out of compost.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "eggshells",
+      "bin": "compost",
+      "prep_instructions": "Keep plastics out of compost.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "bread and pasta scraps",
+      "bin": "compost",
+      "prep_instructions": "Keep plastics out of compost.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "greasy uncoated cardboard",
+      "bin": "compost",
+      "prep_instructions": "Keep plastics out of compost.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "food-soiled aluminum foil",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "small cooking oil residue",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "bulk used cooking oil",
+      "bin": "needs_verification",
+      "prep_instructions": "Berkeley says fats/oils/grease belong in landfill, but liquids are prohibited in carts; verify safe containment or drop-off instructions.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/community-recreation/news/sort-right-reuse-more-help-berkeley-cut-landfill-waste",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "plastic shopping bag",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/zero-waste/curbside-recycling/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "polystyrene foam food container",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "polystyrene foam packaging",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "plastic bubble wrap",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/zero-waste/curbside-recycling/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "plastic air pillows",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/zero-waste/curbside-recycling/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "flexible snack wrapper",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "flexible plastic pouch",
+      "bin": "trash",
+      "prep_instructions": "Flexible/multilayer pouches are not rigid recyclable containers; place in gray landfill.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/community-recreation/news/sort-right-reuse-more-help-berkeley-cut-landfill-waste",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "plastic-coated cardboard",
+      "bin": "trash",
+      "prep_instructions": "Plastic/foil-coated cardboard excluded from paper recycling; gray landfill unless qualifying compostable fiber.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/zero-waste/curbside-recycling/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "corrugated cardboard box",
+      "bin": "recycling",
+      "prep_instructions": "Keep clean and dry; place loose in paper/cardboard recycling section. Flatten cardboard.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/zero-waste/curbside-recycling/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "paperboard box",
+      "bin": "recycling",
+      "prep_instructions": "Keep clean and dry; place loose in paper/cardboard recycling section. Flatten cardboard.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/zero-waste/curbside-recycling/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "newspaper",
+      "bin": "recycling",
+      "prep_instructions": "Keep clean and dry; place loose in paper/cardboard recycling section. Flatten cardboard.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/zero-waste/curbside-recycling/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "paperback book",
+      "bin": "recycling",
+      "prep_instructions": "Keep clean and dry; place loose in paper/cardboard recycling section. Flatten cardboard.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/zero-waste/curbside-recycling/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "paper egg carton",
+      "bin": "recycling",
+      "prep_instructions": "Keep clean and dry; place loose in paper/cardboard recycling section. Flatten cardboard.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/zero-waste/curbside-recycling/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "shredded paper",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "paper receipt",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "hardcover book",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "plastic prescription bottle",
+      "bin": "trash",
+      "prep_instructions": "Small plastic bottles such as pill bottles are excluded from Berkeley curbside recycling.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/wp-content/uploads/2018/06/FACT-SHEET-Plastics-Recycling.pdf",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "certified compostable food scrap liner",
+      "bin": "needs_verification",
+      "prep_instructions": "Berkeley allows BPI-certified compostable fiberware but its residential guide says organics should be loose or in paper bags; confirm whether compostable plastic liners are accepted.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "disposable diaper",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "disposable wipe",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "unused medication",
+      "bin": "special_disposal",
+      "prep_instructions": "Use approved medication/sharps collection; do not place in curbside bins.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/what-can-i-drop-off-at-the-berkeley-recycling-center/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "medical sharps",
+      "bin": "special_disposal",
+      "prep_instructions": "Use approved medication/sharps collection; do not place in curbside bins.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/what-can-i-drop-off-at-the-berkeley-recycling-center/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "plastic dispenser pump",
+      "bin": "needs_verification",
+      "prep_instructions": "Pump tops are multi-material and not named specifically; verify whether they follow Berkeley's small-plastics exclusion.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "rigid plastic household item",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "clean aluminum foil",
+      "bin": "recycling",
+      "prep_instructions": "Empty, clean and dry; keep loose in container recycling; attach caps/lids where applicable.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/zero-waste/curbside-recycling/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "metal cookware",
+      "bin": "needs_verification",
+      "prep_instructions": "Confirm whether cookware is accepted curbside or requires metal drop-off; general metal-can guidance does not establish this.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/zero-waste/curbside-recycling/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "mirror glass",
+      "bin": "trash",
+      "prep_instructions": "Mirror/window glass excluded from container recycling; check transfer-station option for large panes.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "plastic clothes hanger",
+      "bin": "needs_verification",
+      "prep_instructions": "Not an accepted rigid plastic container; confirm landfill versus reuse/drop-off.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/wp-content/uploads/2018/06/FACT-SHEET-Plastics-Recycling.pdf",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "grass clippings",
+      "bin": "compost",
+      "prep_instructions": "Keep plastics out of compost.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "yard leaves",
+      "bin": "compost",
+      "prep_instructions": "Keep plastics out of compost.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "untreated wood pieces",
+      "bin": "compost",
+      "prep_instructions": "Only small, clean untreated wood/branches within curbside size limits (up to 2 feet long and 2 inches in diameter).",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "palm fronds",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "poison oak",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "large tree stump",
+      "bin": "needs_verification",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "household battery",
+      "bin": "special_disposal",
+      "prep_instructions": "Use an approved battery/bulb collection site, not curbside carts.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/what-can-i-drop-off-at-the-berkeley-recycling-center/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "mobile phone",
+      "bin": "special_disposal",
+      "prep_instructions": "Use an approved electronics collection or reuse program; not curbside carts.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "fluorescent light bulb",
+      "bin": "special_disposal",
+      "prep_instructions": "Use an approved battery/bulb collection site, not curbside carts.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/what-can-i-drop-off-at-the-berkeley-recycling-center/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "leftover paint",
+      "bin": "special_disposal",
+      "prep_instructions": "Use appropriate hazardous-waste collection; do not place in curbside carts.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/what-can-i-drop-off-at-the-berkeley-recycling-center/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "laptop computer",
+      "bin": "special_disposal",
+      "prep_instructions": "Use an approved electronics collection or reuse program; not curbside carts.",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "used motor oil",
+      "bin": "special_disposal",
+      "prep_instructions": "Use appropriate hazardous-waste collection; do not place in curbside carts.",
+      "research_references": "",
+      "source_url": "https://ecologycenter.org/what-can-i-drop-off-at-the-berkeley-recycling-center/",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    },
+    {
+      "ruleset_id": "berkeley_1to9_ca",
+      "item_class": "pet waste",
+      "bin": "trash",
+      "prep_instructions": "",
+      "research_references": "",
+      "source_url": "https://berkeleyca.gov/city-services/trash-recycling/waste-sorting-guide",
+      "date_checked": "2026-11-03",
+      "notes": ""
+    }
+  ]
+}
