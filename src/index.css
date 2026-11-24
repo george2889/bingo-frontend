@@ -159,6 +159,7 @@ p { margin: 0 0 18px; color: #6f786f; font-size: 13px; line-height: 1.45; }
 .profile-content > h3 { margin: 20px 0 12px; font-family: "DM Sans", sans-serif; font-size: 15px; }
 .profile-content .primary { height: 49px; margin-top: 5px; border-radius: 15px; background: #205d45; font-size: 13px; }
 .profile-content .profile-saved { margin: 4px 0 9px; color: #216347; font-size: 11px; }
+.auth [role="alert"] { margin: 4px 0 9px; color: #b42318; font-size: 11px; }
 .provider-link { display: inline-block; margin: 0 0 6px; color: #216347; font-size: 12px; font-weight: 700; text-decoration: underline; }
 .facility-process-note { margin: -4px 0 12px; color: #78827b; font-size: 10px; }
 .lookup-content { padding: 12px 22px 92px; }

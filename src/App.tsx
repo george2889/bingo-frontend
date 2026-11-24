@@ -87,6 +87,9 @@ function App() {
   const [showPassword, setShowPassword] = useState(false)
   const [displayName, setDisplayName] = useState("Maya")
   const [profileSaved, setProfileSaved] = useState(false)
+  const [accountCreated, setAccountCreated] = useState(false)
+  const [accountPassword, setAccountPassword] = useState("")
+  const [signInError, setSignInError] = useState("")
   const [lookupItemValue, setLookupItemValue] = useState("")
   const [lookupSearch, setLookupSearch] = useState("")
   const [lookupOpen, setLookupOpen] = useState(false)
@@ -95,13 +98,24 @@ function App() {
   const signIn = () => {
     const id = signInId.trim()
     const matchesAccount = id.toLowerCase() === username.trim().toLowerCase() || id.toLowerCase() === email.trim().toLowerCase()
-    setDisplayName(matchesAccount && firstName.trim() ? firstName.trim() : id.split("@")[0])
-    if (matchesAccount) setSignInId(username.trim())
+    if (!accountCreated) {
+      setSignInError("No account found. Create an account to get started.")
+      return
+    }
+    if (!matchesAccount || password !== accountPassword) {
+      setSignInError("Email, username, or password is incorrect.")
+      return
+    }
+    setSignInError("")
+    setDisplayName(firstName.trim() || "there")
+    setSignInId(username.trim())
     go("home")
   }
   const createAccount = () => {
     if (!isPasswordValid) return
-    setDisplayName(firstName.trim() || username.trim())
+    setAccountCreated(true)
+    setAccountPassword(password)
+    setDisplayName(firstName.trim() || "there")
     setSignInId(username.trim())
     go("location")
   }
@@ -120,6 +134,7 @@ function App() {
   const photoPicker = useRef<HTMLInputElement>(null)
   const go = (next: Screen) => { setHistory((h) => [...h, screen]); setShowPassword(false); setScreen(next); window.scrollTo(0, 0) }
   const back = () => { const next = history.at(-1); if (next) { setShowPassword(false); setScreen(next); setHistory((h) => h.slice(0, -1)) } }
+  const logOut = () => { setHistory([]); setShowPassword(false); setScreen("signin"); window.scrollTo(0, 0) }
   const openCamera = async () => {
     setCameraError("")
     if (!navigator.mediaDevices?.getUserMedia) {
@@ -206,6 +221,7 @@ function App() {
       <p>Sign in for sorting advice that starts with where you live.</p>
       <label className="field signin-field">Email or username<div className="input-wrap"><input value={signInId} onChange={(e) => setSignInId(e.target.value)} /><span aria-hidden="true">♙</span></div></label>
       <label className="field signin-field">Password<div className="input-wrap"><input value={password} onChange={(e) => setPassword(e.target.value)} type={showPassword ? "text" : "password"} /><PasswordToggle visible={showPassword} onClick={() => setShowPassword((visible) => !visible)} /></div></label>
+      {signInError && <p className="profile-saved" role="alert">{signInError}</p>}
       <a className="forgot">Forgot password?</a>
       <Button onClick={signIn}>→ &nbsp; Sign in</Button>
       <p className="center">New to loop? <button className="link" onClick={() => go("create")}>Create an account</button></p>
@@ -255,7 +271,7 @@ function App() {
     <header className="top step-top ready-top"><button className="icon" onClick={back} aria-label="Go back">←</button><strong>YOU’RE ALL SET</strong><span>03 / 03</span></header>
     <section className="content ready-content"><img className="hero ready-hero" src={kitchenPhoto} alt="A person sorting a bottle for recycling at home" /><div className="pill">♧ &nbsp; {cityLabel} · local guide</div>
       <h1>Welcome, {displayName}. Let’s<br />close the loop.</h1><p>Your local guide is ready. Turn “which bin?” into one small, confident decision.</p>
-      <div className="ready-confirm"><span>✓</span><div><strong>Made local for @{username.trim()}</strong><small>Change your community anytime.</small></div></div>
+      <div className="ready-confirm"><span>✓</span><div><strong>Made local for {displayName}</strong><small>Change your community anytime.</small></div></div>
       <Button onClick={() => go("home")}>→ &nbsp; Show me around</Button>
       <p className="ready-disclaimer">Your local guide is ready. Confirm current requirements with your service provider before sorting.</p>
     </section>
@@ -401,7 +417,8 @@ function App() {
         <option value="" disabled>Select your home type</option><option value="single-family">Single-family home</option><option value="duplex">Duplex</option><option value="up-to-9-units">Building with up to 9 units</option>
       </select></div></label>}
       {profileSaved && <p className="profile-saved">✓ &nbsp; Profile changes saved</p>}
-      <Button onClick={() => { setDisplayName(firstName.trim() || username.trim() || "Maya"); setSignInId(username.trim()); setProfileSaved(true) }}>Save changes</Button>
+      <Button onClick={() => { setDisplayName(firstName.trim() || "there"); setSignInId(username.trim()); setProfileSaved(true) }}>Save changes</Button>
+      <Button onClick={logOut}>Log out</Button>
     </section></>, "profile")
 
   if (screen === "facility") return shell(<><Top title="FACILITY SPOTLIGHT" back={back} menu={false} />
